@@ -1,6 +1,6 @@
 # 100-days-of-learning
 
-08/03
+
 Hoje novamente comecei meus estudos sobre arrays, focando em acompanhar as aulas no curso técnico.
 Aulas assistidas:
 

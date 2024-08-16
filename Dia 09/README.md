@@ -1,6 +1,6 @@
 # 100-days-of-learning
 
-08/03
+
 Hoje comecei POO e quase acompanhando as aulas do curso.
 
 Aulas assistidas:'

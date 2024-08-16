@@ -1,6 +1,6 @@
 # 100-days-of-learning
 
-08/03
+
 Hoje terminei de realizaar a ultima seção de aulas de Git Hub e retornei a estudar java.
 Aulas assistidas:
 Aula 15: Operadores pt 01 - Aritimeticos;

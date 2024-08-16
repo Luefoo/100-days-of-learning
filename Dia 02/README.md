@@ -1,6 +1,6 @@
 # 100-days-of-learning
 
-08/01
+
 
 Hoje eu estudei as seguintes aulas:
 Aula 7 - Aprendendo e Conhecendo sobre a IDE IntelliJ;

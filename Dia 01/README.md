@@ -1,6 +1,6 @@
 # 100-days-of-learning
 
-07/31
+
 
 Hoje comecei meu curso de java: Maratona Java Virado no Jiraya - Dev Dojo.
 Coisas que vi:
