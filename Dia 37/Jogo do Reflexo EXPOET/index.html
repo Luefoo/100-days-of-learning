@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Reflexo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Reflexo</h1>
+        <p id="tempo" style="display: none;">Espere a cor mudar!</p>
+        <button id="btn-iniciar" onclick="iniciarJogo()" style="background-color: #ff6600;">Iniciar Jogo</button>
+        <button id="botao" style="display: none; background-color: #ff6600;" onclick="clicar()">Clique aqui!</button>
+        <p id="resultado" style="display: none;"></p> <!-- Esconde o resultado inicialmente -->
+        <p id="mensagem" style="color: red;"></p> <!-- Mensagem de erro -->
+        <button id="btn-recomecar" style="display: none; background-color: #ff6600;" onclick="recomecar()">Recomeçar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
