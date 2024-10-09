@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Par ou Ímpar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Par ou Ímpar</h1>
+        <p id="numero-gerado"></p>
+        <p id="resultado"></p>
+        <p id="pontuacao"></p>
+        <p id="acertos"></p>
+        <p id="erros"></p>
+        <p id="tempo-total"></p> <!-- Mostra o tempo total apenas ao final -->
+
+        <div class="buttons">
+            <button id="btn-iniciar" onclick="iniciar()">Iniciar</button>
+            <button id="btn-par" style="display: none;" onclick="jogar('par')">Par</button>
+            <button id="btn-impar" style="display: none;" onclick="jogar('impar')">Ímpar</button>
+            <button id="btn-recomecar" style="display: none;" onclick="recomecar()">Recomeçar</button>
+            <button id="btn-sair" style="display: none;" onclick="sair()">Sair</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
