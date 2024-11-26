@@ -1,0 +1,248 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4f93ff, #b3daff);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #003d99;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Estilo do Vídeo de Fundo */
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Ajustes para a área principal com vídeo */
+.main-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: calc(100vh - 120px);
+}
+
+/* Estilo da Mensagem de Boas-vindas */
+.welcome-message {
+    margin-top: 1vh;
+    color: white;
+}
+
+.welcome-message h2 {
+    font-size: 6rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.welcome-message p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Botões */
+.buttons-container {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.buttons-container button {
+    background-color: #4f93ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    max-width: 200px;
+    margin: 10px;
+}
+
+.buttons-container button:hover {
+    background-color: #0066cc;
+}
+
+/* Rodapé */
+footer {
+    background-color: #003d99;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Página de Lista - Estilizando o Container */
+.table-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 95%; /* Reduz um pouco a largura do container */
+    margin: 30px auto; /* Centraliza o container com margem superior e inferior */
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #003d99;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f0faff;
+}
+
+table tr:hover {
+    background-color: #4f93ff;
+    color: white;
+}
+
+a {
+    color: #003d99;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Botões de Ação (Editar/Excluir) */
+table td a {
+    color: white;
+    background-color: #4f93ff;
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+table td a:hover {
+    background-color: #0066cc;
+}
+
+/* Botões Gerais */
+button {
+    background-color: #4f93ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+/* Estilo da Página Create */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 80px auto; /* Centraliza o container */
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #003d99;
+}
+
+/* Container do formulário */
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto; /* Centraliza o container */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #003d99;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 100px;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #4f93ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
