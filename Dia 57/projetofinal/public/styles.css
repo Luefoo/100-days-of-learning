@@ -1,0 +1,230 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4f93ff, #b3daff);
+    color: #333;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: flex-start; /* Garante que o conteúdo vá para o topo */
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff;
+    color: #4f93ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinha os itens verticalmente no centro */
+    align-items: center; /* Alinha os itens horizontalmente no centro */
+    margin-top: 20px; /* Garante que o container não fique no topo da tela */
+}
+
+h1, h2 {
+    color: #003d99;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4f93ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    max-width: 300px; /* Limita a largura do botão */
+    margin: 0 auto; /* Centraliza o botão dentro do container */
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+a {
+    color: #003d99;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Formulários */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%; /* Garante que o formulário ocupe toda a largura do container */
+}
+
+/* Campos de texto */
+input[type="text"], input[type="password"] {
+    border: 2px solid #4f93ff;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 14px;
+    width: 100%; /* Garante que o campo de texto ocupe toda a largura disponível */
+    max-width: 300px; /* Limita a largura dos campos de entrada */
+    margin: 0 auto; /* Centraliza os campos dentro do container */
+}
+
+/* Estilo para mensagens de erro e sucesso */
+.container.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container.error a, .container.success a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container.error a:hover, .container.success a:hover {
+    text-decoration: underline;
+}
+
+/* Página Home - Cabeçalho */
+header {
+    display: flex;
+    justify-content: center; /* Centraliza os itens no cabeçalho */
+    align-items: center;
+    background-color: #003d99;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed; /* Fixando o cabeçalho no topo */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Garante que o cabeçalho fique acima do conteúdo */
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: center; /* Garante que os botões fiquem centralizados dentro do container */
+    gap: 100px; /* Espaçamento entre os botões */
+    transform: translateX(-135px); /* Move os botões 65px para a esquerda */
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: #4f93ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #0066cc;
+}
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #003d99;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Ajuste para o conteúdo principal */
+.main-content {
+    margin-top: 80px; /* Garante que o conteúdo não fique sobrepondo o cabeçalho fixo */
+}
+
+.welcome-message {
+    margin-top: 30px;
+}
+
+.welcome-message h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.welcome-message p {
+    font-size: 1.2rem;
+}
+
+/* Estilo do botão na página home */
+.welcome-message button {
+    background-color: #4f93ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.welcome-message button:hover {
+    background-color: #0066cc;
+}
+
+/* Página de Lista */
+.table-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #003d99;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f0faff;
+}
+
+table tr:hover {
+    background-color: #4f93ff;
+    color: white;
+}
